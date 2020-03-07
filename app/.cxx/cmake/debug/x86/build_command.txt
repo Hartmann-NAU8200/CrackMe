@@ -1,0 +1,15 @@
+Executable : D:\Users\Erich_Hartmann\AppData\Local\Android\SDK\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HE:\CTF\reversing\android\CrackMe_shush-sec\app
+-BE:\CTF\reversing\android\CrackMe_shush-sec\app\.cxx\cmake\debug\x86
+-DANDROID_ABI=x86
+-DANDROID_PLATFORM=android-19
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\CTF\reversing\android\CrackMe_shush-sec\app\build\intermediates\cmake\debug\obj\x86
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=D:\Users\Erich_Hartmann\AppData\Local\Android\SDK\ndk\20.1.5948944
+-DCMAKE_CXX_FLAGS=
+-DCMAKE_TOOLCHAIN_FILE=D:\Users\Erich_Hartmann\AppData\Local\Android\SDK\ndk\20.1.5948944\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=D:\Users\Erich_Hartmann\AppData\Local\Android\SDK\cmake\3.6.4111459\bin\ninja.exe
+-GAndroid Gradle - Ninja
+jvmArgs : 
+

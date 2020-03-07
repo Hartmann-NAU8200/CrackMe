@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CrackMe.iml" filepath="$PROJECT_DIR$/CrackMe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CrackMe_shush-sec.iml" filepath="$PROJECT_DIR$/CrackMe_shush-sec.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

@@ -37,7 +37,7 @@ Java_com_example_shush_crackme_MainActivity_resultFromJNI(JNIEnv *env, jobject i
 
     const char *ret = generateKey(sn,k);
     if(!strcmp(ret,"YP\x18\a")){
-        return env->NewStringUTF("恭喜！破解成功！");
+        return env->NewStringUTF("恭喜！破解成功！"); // flag:hehe
     }
     env->ReleaseStringUTFChars(sn_, sn);
     return env->NewStringUTF("失败！");
@@ -74,6 +74,7 @@ void AntiDebug() {
                     {
                         //int ret = kill( pid,SIGKILL);
                         k ="haha";
+                        exit(1);
                         return ;
                     }
                     break;
@@ -95,6 +96,7 @@ void antiDebug(){
     int timeoff = (t2.tv_sec)-(t1.tv_sec);
     if(timeoff>1){
         k = "haha";
+        exit(1);
     }
 
 }

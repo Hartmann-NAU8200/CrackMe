@@ -1,0 +1,12 @@
+[1/2] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o
+E:\CTF\reversing\android\CrackMe_shush-sec\app\src\main\cpp\native-lib.cpp:21:19: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+static char * k = "15pb";
+                  ^
+E:\CTF\reversing\android\CrackMe_shush-sec\app\src\main\cpp\native-lib.cpp:76:28: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+                        k ="haha";
+                           ^
+E:\CTF\reversing\android\CrackMe_shush-sec\app\src\main\cpp\native-lib.cpp:98:13: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+        k = "haha";
+            ^
+3 warnings generated.
+[2/2] Linking CXX shared library ..\..\..\..\build\intermediates\cmake\release\obj\x86\libnative-lib.so

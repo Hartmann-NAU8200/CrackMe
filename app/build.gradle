@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion "26.0.0"
+    compileSdkVersion 29
+    buildToolsVersion '29.0.2'
     defaultConfig {
         applicationId "com.example.shush.crackme"
         minSdkVersion 19
@@ -16,7 +16,7 @@ android {
             }
         }
         ndk{
-            abiFilters 'x86', 'armeabi', 'armeabi-v7a'
+            abiFilters 'x86', 'armeabi-v7a'
         }
     }
     buildTypes {
